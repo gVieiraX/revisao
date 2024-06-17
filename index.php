@@ -37,7 +37,7 @@ $result = $conn->query($sql);
                     <th>ID</th>
                     <th>Nome</th>
                     <th>Descrição</th>
-                    <th>Preço</th>
+                    <th>Preço (R$)</th>
                     <th>Quantidade</th>
                     <th>Ações</th>
                 </tr>

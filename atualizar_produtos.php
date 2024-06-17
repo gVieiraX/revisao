@@ -101,8 +101,8 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
                 <textarea class="form-control" id="descricao" name="descricao" rows="3" required><?php echo htmlspecialchars($descricao); ?></textarea>
             </div>
             <div class="form-group">
-                <label for="preco">Preço:</label>
-                <input type="number" class="form-control" id="preco" name="preco" min="0.01" step="0.01" value="<?php echo htmlspecialchars($preco); ?>" required>
+            <label for="preco">Preço (R$):</label>
+            <input type="number" class="form-control" id="preco" name="preco" min="0.01" step="0.01" value="<?php echo htmlspecialchars($preco); ?>" required>
             </div>
             <div class="form-group">
                 <label for="quantidade">Quantidade:</label>

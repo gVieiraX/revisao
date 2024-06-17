@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <textarea class="form-control" id="descricao" name="descricao" rows="3" required></textarea>
             </div>
             <div class="form-group">
-                <label for="preco">Preço:</label>
+            <label for="preco">Preço (R$):</label>
                 <input type="number" class="form-control" id="preco" name="preco" min="0.01" step="0.01" required>
             </div>
             <div class="form-group">
