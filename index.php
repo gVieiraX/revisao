@@ -3,7 +3,7 @@
 include 'conexao.php';
 
 // cookie que expira em 15 dias
-setcookie("ultimo_acesso", date("Y-m-d H:i:s"), time() + (86400 * 30), "/");
+setcookie("ultimo_acesso", date("Y-m-d H:i:s"), time() + (86400 * 15), "/");
 
 // Seleciona todos os produtos do banco de dados
 $sql = "SELECT * FROM tb_produtos";
